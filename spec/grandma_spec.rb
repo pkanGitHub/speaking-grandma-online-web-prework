@@ -19,5 +19,5 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
   end
   puts "test"
-  speak_to_grandma("testtest")
+  puts speak_to_grandma("testtest")
 end
